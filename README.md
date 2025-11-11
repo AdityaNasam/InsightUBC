@@ -5,7 +5,7 @@ Please keep your repository private.
 
 For information about the project, autotest, and the checkpoints, see the course webpage.
 
-###Description
+### Description
 Section Insight is a service that allows users to add, view, and manage datasets containing course sections. The service provides a user interface that allows users to view a list of sections, add new sections, and view three graphical insights about the dataset. The service also provides a REST API that allows users to interact with the service programmatically.
 
 ### DEMO
