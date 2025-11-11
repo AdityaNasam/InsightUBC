@@ -1,0 +1,19 @@
+{
+	"title": "sfieldinvalidquery",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_depot": "caps"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_depot",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

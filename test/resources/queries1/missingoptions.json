@@ -1,0 +1,12 @@
+{
+	"title": "missingoptions",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "caps"
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

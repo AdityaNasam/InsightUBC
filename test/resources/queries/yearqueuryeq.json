@@ -1,0 +1,77 @@
+{
+	"title": "yearqueuryeq",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"EQ": {
+						"sections_year": 2015
+					}
+				},
+				{
+					"IS": {
+						"sections_dept": "caps"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "caps",
+			"sections_avg": 69.65
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 69.71
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 74.7
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 84.5
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 84.71
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 84.91
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 86.56
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 86.84
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 87.63
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 88.86
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 89.4
+		},
+		{
+			"sections_dept": "caps",
+			"sections_avg": 89.8
+		}
+	]
+}

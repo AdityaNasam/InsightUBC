@@ -1,0 +1,21 @@
+{
+	"title": "negationnonexistentid",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"IS": {
+					"mango_dept": "c*"
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"mango_dept",
+				"mango_avg"
+			],
+			"ORDER": "mango_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

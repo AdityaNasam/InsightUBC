@@ -1,0 +1,759 @@
+{
+	"title": "emptysectionstitle",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": ""
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_uuid"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "smith, kevin",
+			"sections_uuid": "7905"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "7906"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "7907"
+		},
+		{
+			"sections_instructor": "smith, kevin",
+			"sections_uuid": "12978"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "12979"
+		},
+		{
+			"sections_instructor": "grace, john ross",
+			"sections_uuid": "30179"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "30180"
+		},
+		{
+			"sections_instructor": "smith, kevin",
+			"sections_uuid": "45687"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "45688"
+		},
+		{
+			"sections_instructor": "smith, kevin",
+			"sections_uuid": "49097"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "49098"
+		},
+		{
+			"sections_instructor": "smith, kevin",
+			"sections_uuid": "56473"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "56474"
+		},
+		{
+			"sections_instructor": "grace, john ross",
+			"sections_uuid": "58579"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "58580"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "63629"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "63630"
+		},
+		{
+			"sections_instructor": "smith, kevin",
+			"sections_uuid": "76876"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "76877"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "15614"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "15615"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "25348"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "25349"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "25350"
+		},
+		{
+			"sections_instructor": "flood, karen",
+			"sections_uuid": "26787"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "26788"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "28357"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "28358"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "33376"
+		},
+		{
+			"sections_instructor": "haney, colleen;hawley, jody;tba",
+			"sections_uuid": "33377"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "33378"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "51007"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "51008"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "51009"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "59124"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "59125"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "59126"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "60085"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "60086"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "69255"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "69256"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69257"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "70475"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "70476"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "70477"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "80766"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "80767"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "80768"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "82389"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "82390"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "82391"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "87789"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "87790"
+		},
+		{
+			"sections_instructor": "munteanu, mircea",
+			"sections_uuid": "91159"
+		},
+		{
+			"sections_instructor": "flood, karen",
+			"sections_uuid": "91160"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "91161"
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_uuid": "15625"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "15626"
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_uuid": "25365"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "25366"
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_uuid": "51024"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "51025"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "59139"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "59140"
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_uuid": "69269"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69270"
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_uuid": "70492"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "70493"
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_uuid": "80778"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "80779"
+		},
+		{
+			"sections_instructor": "schultz, izabela",
+			"sections_uuid": "82402"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "82403"
+		},
+		{
+			"sections_instructor": "shrestha, ratna",
+			"sections_uuid": "21474"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "21475"
+		},
+		{
+			"sections_instructor": "shrestha, ratna",
+			"sections_uuid": "58363"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "58364"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69821"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69822"
+		},
+		{
+			"sections_instructor": "shrestha, ratna",
+			"sections_uuid": "21476"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "21477"
+		},
+		{
+			"sections_instructor": "shrestha, ratna",
+			"sections_uuid": "58365"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "58366"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69823"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69824"
+		},
+		{
+			"sections_instructor": "kelly, deirdre",
+			"sections_uuid": "40328"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "40329"
+		},
+		{
+			"sections_instructor": "loutzenheiser, lisa",
+			"sections_uuid": "46285"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "46286"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "58856"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "58857"
+		},
+		{
+			"sections_instructor": "roman, leslie",
+			"sections_uuid": "62272"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "62273"
+		},
+		{
+			"sections_instructor": "metcalfe, amy",
+			"sections_uuid": "87260"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "87261"
+		},
+		{
+			"sections_instructor": "kelly, deirdre",
+			"sections_uuid": "98551"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "98552"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "13480"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "13481"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "13482"
+		},
+		{
+			"sections_instructor": "shapiro, adam",
+			"sections_uuid": "18922"
+		},
+		{
+			"sections_instructor": "wright, katharine",
+			"sections_uuid": "18923"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "18924"
+		},
+		{
+			"sections_instructor": "trim, henry",
+			"sections_uuid": "48736"
+		},
+		{
+			"sections_instructor": "brain, robert",
+			"sections_uuid": "48737"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "48738"
+		},
+		{
+			"sections_instructor": "brain, robert",
+			"sections_uuid": "61708"
+		},
+		{
+			"sections_instructor": "richardson, alan walter",
+			"sections_uuid": "61709"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "61710"
+		},
+		{
+			"sections_instructor": "semczyszyn, nola",
+			"sections_uuid": "67626"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "67627"
+		},
+		{
+			"sections_instructor": "brain, robert",
+			"sections_uuid": "79280"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "79281"
+		},
+		{
+			"sections_instructor": "cameron, maxwell",
+			"sections_uuid": "8921"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "8922"
+		},
+		{
+			"sections_instructor": "goenaga orrego, agustin",
+			"sections_uuid": "16095"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "16096"
+		},
+		{
+			"sections_instructor": "cameron, maxwell",
+			"sections_uuid": "16566"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "16567"
+		},
+		{
+			"sections_instructor": "cameron, maxwell",
+			"sections_uuid": "17055"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "17056"
+		},
+		{
+			"sections_instructor": "tockman, jason",
+			"sections_uuid": "53755"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "53756"
+		},
+		{
+			"sections_instructor": "cameron, maxwell",
+			"sections_uuid": "62984"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "62985"
+		},
+		{
+			"sections_instructor": "cameron, maxwell",
+			"sections_uuid": "67036"
+		},
+		{
+			"sections_instructor": "cameron, maxwell",
+			"sections_uuid": "67037"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "67038"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69454"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69455"
+		},
+		{
+			"sections_instructor": "pacheco-vega, hector r",
+			"sections_uuid": "70774"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "70775"
+		},
+		{
+			"sections_instructor": "goenaga orrego, agustin",
+			"sections_uuid": "73697"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "73698"
+		},
+		{
+			"sections_instructor": "gagnon, jennifer",
+			"sections_uuid": "8935"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "8936"
+		},
+		{
+			"sections_instructor": "gagnon, jennifer",
+			"sections_uuid": "16107"
+		},
+		{
+			"sections_instructor": "gagnon, jennifer",
+			"sections_uuid": "16108"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "16109"
+		},
+		{
+			"sections_instructor": "gagnon, jennifer",
+			"sections_uuid": "16568"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "16569"
+		},
+		{
+			"sections_instructor": "gagnon, jennifer",
+			"sections_uuid": "17069"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "17070"
+		},
+		{
+			"sections_instructor": "zamar, ruben",
+			"sections_uuid": "2969"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "2970"
+		},
+		{
+			"sections_instructor": "zamar, ruben",
+			"sections_uuid": "43559"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "43560"
+		},
+		{
+			"sections_instructor": "chen, jiahua",
+			"sections_uuid": "52191"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "52192"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69642"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69643"
+		},
+		{
+			"sections_instructor": "zamar, ruben",
+			"sections_uuid": "73798"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "73799"
+		},
+		{
+			"sections_instructor": "zamar, ruben",
+			"sections_uuid": "81994"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "81995"
+		},
+		{
+			"sections_instructor": "zamar, ruben",
+			"sections_uuid": "85853"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "85854"
+		},
+		{
+			"sections_instructor": "bouchard-cote, alexandre",
+			"sections_uuid": "98897"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "98898"
+		},
+		{
+			"sections_instructor": "wu, lang",
+			"sections_uuid": "2971"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "2972"
+		},
+		{
+			"sections_instructor": "chen, jiahua",
+			"sections_uuid": "43561"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "43562"
+		},
+		{
+			"sections_instructor": "wu, lang",
+			"sections_uuid": "52193"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "52194"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69644"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "69645"
+		},
+		{
+			"sections_instructor": "chen, jiahua",
+			"sections_uuid": "73800"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "73801"
+		},
+		{
+			"sections_instructor": "chen, jiahua",
+			"sections_uuid": "81996"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "81997"
+		},
+		{
+			"sections_instructor": "wu, lang",
+			"sections_uuid": "85855"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "85856"
+		},
+		{
+			"sections_instructor": "wu, lang",
+			"sections_uuid": "98899"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "98900"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "19908"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "19909"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "36737"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "43164"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "43165"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "68705"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "68706"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "73802"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "97795"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "97796"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "25945"
+		}
+	]
+}

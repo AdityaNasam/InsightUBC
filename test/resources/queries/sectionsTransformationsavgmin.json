@@ -1,0 +1,66 @@
+{
+	"title": "In sections dataset sections grouped by ID, find entries whose Department is \"adhe\" and Average is greater than 80; show ID and minAvg, where minAvg is the MIN of Average; sort in descending order by minAvg.",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "adhe"
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 80
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"minAvg"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"minAvg"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_id"
+			],
+			"APPLY": [
+				{
+					"minAvg": {
+						"MIN": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "328",
+			"minAvg": 82.82
+		},
+		{
+			"sections_id": "327",
+			"minAvg": 80.76
+		},
+		{
+			"sections_id": "330",
+			"minAvg": 80.4
+		},
+		{
+			"sections_id": "329",
+			"minAvg": 80.33
+		},
+		{
+			"sections_id": "412",
+			"minAvg": 80.25
+		}
+	]
+}

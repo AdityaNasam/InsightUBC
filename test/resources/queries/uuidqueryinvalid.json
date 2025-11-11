@@ -1,0 +1,18 @@
+{
+	"title": "uuidqueryinvalid",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_uuid": 123
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_uuid"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

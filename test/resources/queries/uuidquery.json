@@ -1,0 +1,23 @@
+{
+	"title": "uuidquery",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_uuid": "32454"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_uuid"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "32454"
+		}
+	]
+}

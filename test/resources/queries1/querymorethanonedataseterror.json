@@ -1,0 +1,19 @@
+{
+	"title": "querymorethanonedataseterror",
+	"input": {
+		"WHERE": {
+			"LT": {
+				"_pass": 1
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

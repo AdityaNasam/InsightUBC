@@ -1,0 +1,13 @@
+{
+	"title": "emptyoptionsmissingcolumns",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "caps"
+			}
+		},
+		"OPTIONS": {}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

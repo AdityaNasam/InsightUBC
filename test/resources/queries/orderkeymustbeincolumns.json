@@ -1,0 +1,42 @@
+{
+	"title": "In sections dataset sections grouped by Department and ID, find entries whose Department ends with \"c\" and Year is greater than 2002; show ID, Department and countAudit, where countAudit is the COUNT of Audit; sort in ascending order by Average.",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "*c"
+					}
+				},
+				{
+					"GT": {
+						"sections_year": 2002
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_dept",
+				"countAudit"
+			],
+			"ORDER": "sections_avg"
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept",
+				"sections_id"
+			],
+			"APPLY": [
+				{
+					"countAudit": {
+						"COUNT": "sections_audit"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

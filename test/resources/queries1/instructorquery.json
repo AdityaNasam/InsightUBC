@@ -1,0 +1,63 @@
+{
+	"title": "instructorquery",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "gregor*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "321"
+		},
+		{
+			"sections_id": "321"
+		},
+		{
+			"sections_id": "321"
+		},
+		{
+			"sections_id": "321"
+		},
+		{
+			"sections_id": "321"
+		},
+		{
+			"sections_id": "321"
+		},
+		{
+			"sections_id": "321"
+		},
+		{
+			"sections_id": "345"
+		},
+		{
+			"sections_id": "345"
+		},
+		{
+			"sections_id": "345"
+		},
+		{
+			"sections_id": "345"
+		},
+		{
+			"sections_id": "345"
+		},
+		{
+			"sections_id": "345"
+		},
+		{
+			"sections_id": "345"
+		},
+		{
+			"sections_id": "345"
+		}
+	]
+}

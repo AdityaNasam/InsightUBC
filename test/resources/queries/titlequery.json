@@ -1,0 +1,455 @@
+{
+	"title": "titlequery",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*biology"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_uuid"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "24543"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "24544"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "32454"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "32455"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "61531"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "61532"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "71845"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "71846"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "76098"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "76099"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "81069"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "81070"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "87340"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "87341"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "4061"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "4062"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "18067"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "18068"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "19595"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "19596"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "20546"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "20547"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "28182"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "28183"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "34299"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "34300"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "42125"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "42126"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "48212"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "48213"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "54040"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "54041"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "55061"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "55062"
+		},
+		{
+			"sections_instructor": "cooke, james",
+			"sections_uuid": "60308"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "60309"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "72061"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "72062"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "86118"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "86119"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "87147"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "87148"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "87816"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "87817"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "88956"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "88957"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "4063"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "4064"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "18069"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "18070"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "19597"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "19598"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "20548"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "20549"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "28184"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "28185"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "34301"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "34302"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "42127"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "42128"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "48214"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "48215"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "54042"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "54043"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "55063"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "55064"
+		},
+		{
+			"sections_instructor": "cooke, james",
+			"sections_uuid": "60310"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "60311"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "72063"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "72064"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "86120"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "86121"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "87149"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "87150"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "87818"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "87819"
+		},
+		{
+			"sections_instructor": "harris, robert",
+			"sections_uuid": "88958"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "88959"
+		},
+		{
+			"sections_instructor": "keeling, naomi",
+			"sections_uuid": "18203"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "18204"
+		},
+		{
+			"sections_instructor": "keeling, naomi",
+			"sections_uuid": "19729"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "19730"
+		},
+		{
+			"sections_instructor": "keeling, naomi",
+			"sections_uuid": "24749"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "24750"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "34435"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "34436"
+		},
+		{
+			"sections_instructor": "keeling, naomi",
+			"sections_uuid": "42263"
+		},
+		{
+			"sections_instructor": "wasteneys, geoff",
+			"sections_uuid": "42264"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "42265"
+		},
+		{
+			"sections_instructor": "keeling, naomi",
+			"sections_uuid": "54163"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "54164"
+		},
+		{
+			"sections_instructor": "keeling, naomi",
+			"sections_uuid": "55195"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "55196"
+		},
+		{
+			"sections_instructor": "wasteneys, geoff",
+			"sections_uuid": "72200"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "72201"
+		},
+		{
+			"sections_instructor": "keeling, naomi",
+			"sections_uuid": "89092"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "89093"
+		},
+		{
+			"sections_instructor": "jordan, elizabeth",
+			"sections_uuid": "50489"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "50490"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "54928"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "54929"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "59681"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "59682"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "86579"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "86580"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "89565"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "89566"
+		},
+		{
+			"sections_instructor": "chanway, christopher",
+			"sections_uuid": "97659"
+		},
+		{
+			"sections_instructor": "",
+			"sections_uuid": "97660"
+		}
+	]
+}
