@@ -5,6 +5,12 @@ Please keep your repository private.
 
 For information about the project, autotest, and the checkpoints, see the course webpage.
 
+Description
+Section Insight is a service that allows users to add, view, and manage datasets containing course sections. The service provides a user interface that allows users to view a list of sections, add new sections, and view three graphical insights about the dataset. The service also provides a REST API that allows users to interact with the service programmatically.
+
+### DEMO
+https://youtu.be/LKSJJnSPQ-g?si=MF6ekXETjoL5hPL5
+
 ## Configuring your environment
 
 To start using this project, you need to get your computer configured so you can build and execute the code.
@@ -40,5 +46,4 @@ IntelliJ Ultimate should be automatically configured the first time you open the
 While the readings for this course are licensed using [CC-by-SA](https://creativecommons.org/licenses/by-sa/3.0/), **checkpoint descriptions and implementations are considered private materials**. Please do not post or share your project solutions. We go to considerable lengths to make the project an interesting and useful learning experience for this course. This is a great deal of work, and while future students may be tempted by your solutions, posting them does not do them any real favours. Please be considerate with these private materials and not pass them along to others, make your repos public, or post them to other sites online.
 
 
-### DEMO
-https://youtu.be/LKSJJnSPQ-g?si=MF6ekXETjoL5hPL5
+
